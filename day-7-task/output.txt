@@ -1,0 +1,9 @@
+I here to do my task3 Question number:2
+Given a file, replace all replace all occurrence of the word ""give"" with ""learning"" from the 5th line till the end in only those lines that contain the word "welcome"
+welcome to learning session
+The agenda of session is give
+welcome to learning session
+welcome the agenda of session is learning
+welcome the agenda of session is learning
+The agenda of session is give
+welcome session "learning"
