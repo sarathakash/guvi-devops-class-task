@@ -1,8 +1,6 @@
 #!/bin/bash
 
-start=0
-end=5
-for (( i=$start; i<=$end; i++ ))
+for (( i=0;i<=6;i++ ))
 do
-    echo "Number: $i"
+echo "the output is $i "
 done
