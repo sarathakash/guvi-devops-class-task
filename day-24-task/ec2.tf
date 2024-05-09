@@ -20,6 +20,7 @@ resource "aws_instance" "instance-us-east-121" {
 
 # Launch EC2 instance in the first region
 resource "aws_instance" "aws2" {
+  provider      = aws.us_east_1
   ami           = "ami-04b70fa74e45c3917"
   instance_type = "t2.micro"
   tags          = {
